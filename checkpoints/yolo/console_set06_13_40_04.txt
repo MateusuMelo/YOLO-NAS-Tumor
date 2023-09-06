@@ -1,0 +1,39 @@
+============================================================
+New run started at 2023-09-06.13:39:52.893869
+sys.argv: "C:\Users\mateu\AppData\Roaming\Python\Python39\site-packages\ipykernel_launcher.py --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"5aaaec08-6d55-494e-9118-ef025cf6e3f0" --shell=9002 --transport="tcp" --iopub=9004 --f=c:\Users\mateu\AppData\Roaming\jupyter\runtime\kernel-v2-14096kTYKHv08bhyl.json"
+============================================================
+The console stream is logged into C:\Users\mateu\sg_logs\console.log
+['tumor']
+
+Indexing dataset annotations:   0%|          | 0/210 [00:00<?, ?it/s]
+Indexing dataset annotations:   5%|▍         | 10/210 [00:00<00:02, 97.07it/s]
+Indexing dataset annotations:  10%|▉         | 20/210 [00:00<00:01, 95.97it/s]
+Indexing dataset annotations:  14%|█▍        | 30/210 [00:00<00:01, 96.04it/s]
+Indexing dataset annotations:  19%|█▉        | 40/210 [00:00<00:01, 96.44it/s]
+Indexing dataset annotations:  24%|██▍       | 50/210 [00:00<00:01, 96.33it/s]
+Indexing dataset annotations:  29%|██▊       | 60/210 [00:00<00:01, 96.41it/s]
+Indexing dataset annotations:  33%|███▎      | 70/210 [00:00<00:01, 96.61it/s]
+Indexing dataset annotations:  38%|███▊      | 80/210 [00:00<00:01, 95.00it/s]
+Indexing dataset annotations:  43%|████▎     | 90/210 [00:00<00:01, 94.50it/s]
+Indexing dataset annotations:  48%|████▊     | 100/210 [00:01<00:01, 95.00it/s]
+Indexing dataset annotations:  52%|█████▏    | 110/210 [00:01<00:01, 95.90it/s]
+Indexing dataset annotations:  57%|█████▋    | 120/210 [00:01<00:00, 95.69it/s]
+Indexing dataset annotations:  62%|██████▏   | 130/210 [00:01<00:00, 96.67it/s]
+Indexing dataset annotations:  67%|██████▋   | 141/210 [00:01<00:00, 98.27it/s]
+Indexing dataset annotations:  72%|███████▏  | 151/210 [00:01<00:00, 98.20it/s]
+Indexing dataset annotations:  77%|███████▋  | 162/210 [00:01<00:00, 99.04it/s]
+Indexing dataset annotations:  82%|████████▏ | 172/210 [00:01<00:00, 97.61it/s]
+Indexing dataset annotations:  87%|████████▋ | 182/210 [00:01<00:00, 97.45it/s]
+Indexing dataset annotations:  92%|█████████▏| 193/210 [00:01<00:00, 98.24it/s]
+Indexing dataset annotations:  97%|█████████▋| 203/210 [00:02<00:00, 98.73it/s]
+Indexing dataset annotations: 100%|██████████| 210/210 [00:02<00:00, 96.99it/s]
+
+Indexing dataset annotations:   0%|          | 0/60 [00:00<?, ?it/s]
+Indexing dataset annotations:  17%|█▋        | 10/60 [00:00<00:00, 95.22it/s]
+Indexing dataset annotations:  33%|███▎      | 20/60 [00:00<00:00, 92.81it/s]
+Indexing dataset annotations:  50%|█████     | 30/60 [00:00<00:00, 94.29it/s]
+Indexing dataset annotations:  68%|██████▊   | 41/60 [00:00<00:00, 96.77it/s]
+Indexing dataset annotations:  85%|████████▌ | 51/60 [00:00<00:00, 96.70it/s]
+Indexing dataset annotations: 100%|██████████| 60/60 [00:00<00:00, 94.90it/s]
+cpu
+The console stream is now moved to ./checkpoints\yolo/console_set06_13_40_04.txt

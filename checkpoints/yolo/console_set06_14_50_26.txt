@@ -1,0 +1,46 @@
+============================================================
+New run started at 2023-09-06.14:50:17.655410
+sys.argv: "C:\Users\mateu\AppData\Roaming\Python\Python39\site-packages\ipykernel_launcher.py --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"7a749b37-9677-44fd-b3fd-6cb68bcf0887" --shell=9002 --transport="tcp" --iopub=9004 --f=c:\Users\mateu\AppData\Roaming\jupyter\runtime\kernel-v2-14096DHLu4Ts3xV38.json"
+============================================================
+The console stream is logged into C:\Users\mateu\sg_logs\console.log
+['tumor']
+
+Indexing dataset annotations:   0%|          | 0/210 [00:00<?, ?it/s]
+Indexing dataset annotations:   6%|▌         | 13/210 [00:00<00:01, 129.97it/s]
+Indexing dataset annotations:  13%|█▎        | 28/210 [00:00<00:01, 136.90it/s]
+Indexing dataset annotations:  20%|██        | 42/210 [00:00<00:01, 132.35it/s]
+Indexing dataset annotations:  28%|██▊       | 58/210 [00:00<00:01, 141.76it/s]
+Indexing dataset annotations:  35%|███▌      | 74/210 [00:00<00:00, 146.59it/s]
+Indexing dataset annotations:  43%|████▎     | 90/210 [00:00<00:00, 149.53it/s]
+Indexing dataset annotations:  50%|█████     | 105/210 [00:00<00:00, 149.20it/s]
+Indexing dataset annotations:  58%|█████▊    | 122/210 [00:00<00:00, 154.24it/s]
+Indexing dataset annotations:  66%|██████▌   | 138/210 [00:00<00:00, 155.99it/s]
+Indexing dataset annotations:  74%|███████▍  | 156/210 [00:01<00:00, 161.81it/s]
+Indexing dataset annotations:  82%|████████▏ | 173/210 [00:01<00:00, 155.82it/s]
+Indexing dataset annotations:  90%|█████████ | 189/210 [00:01<00:00, 156.11it/s]
+Indexing dataset annotations:  98%|█████████▊| 205/210 [00:01<00:00, 156.33it/s]
+Indexing dataset annotations: 100%|██████████| 210/210 [00:01<00:00, 150.94it/s]
+
+Indexing dataset annotations:   0%|          | 0/60 [00:00<?, ?it/s]
+Indexing dataset annotations:  25%|██▌       | 15/60 [00:00<00:00, 147.03it/s]
+Indexing dataset annotations:  50%|█████     | 30/60 [00:00<00:00, 136.04it/s]
+Indexing dataset annotations:  73%|███████▎  | 44/60 [00:00<00:00, 133.69it/s]
+Indexing dataset annotations: 100%|██████████| 60/60 [00:00<00:00, 143.54it/s]
+Indexing dataset annotations: 100%|██████████| 60/60 [00:00<00:00, 140.81it/s]
+cuda
+The console stream is now moved to ./checkpoints\yolo/console_set06_14_50_26.txt
+[2023-09-06 14:50:30] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+[2023-09-06 14:50:40] INFO - sg_trainer_utils.py - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Dataset size:                 210        (len(train_set))
+    - Batch size per GPU:           8          (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             8          (num_gpus * batch_size)
+    - Effective Batch size:         8          (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         26         (len(train_loader))
+    - Gradient updates per epoch:   26         (len(train_loader) / batch_accumulate)
+
+[2023-09-06 14:50:40] INFO - sg_trainer.py - Started training for 15 epochs (0/14)
+
+  0%|          | 0/26 [00:00<?, ?it/s]Train epoch 0:   0%|          | 0/26 [00:00<?, ?it/s]Train epoch 0:   0%|          | 0/26 [00:40<?, ?it/s, PPYoloELoss/loss=3.94, PPYoloELoss/loss_cls=2.22, PPYoloELoss/loss_dfl=1.8, PPYoloELoss/loss_iou=0.326, gpu_mem=3.91]Train epoch 0:   4%|▍         | 1/26 [00:40<16:54, 40.59s/it, PPYoloELoss/loss=3.94, PPYoloELoss/loss_cls=2.22, PPYoloELoss/loss_dfl=1.8, PPYoloELoss/loss_iou=0.326, gpu_mem=3.91]Train epoch 0:   4%|▍         | 1/26 [01:15<16:54, 40.59s/it, PPYoloELoss/loss=3.88, PPYoloELoss/loss_cls=2.22, PPYoloELoss/loss_dfl=1.72, PPYoloELoss/loss_iou=0.317, gpu_mem=5.12]Train epoch 0:   8%|▊         | 2/26 [01:15<14:58, 37.45s/it, PPYoloELoss/loss=3.88, PPYoloELoss/loss_cls=2.22, PPYoloELoss/loss_dfl=1.72, PPYoloELoss/loss_iou=0.317, gpu_mem=5.12]Train epoch 0:   8%|▊         | 2/26 [01:38<14:58, 37.45s/it, PPYoloELoss/loss=3.88, PPYoloELoss/loss_cls=2.18, PPYoloELoss/loss_dfl=1.77, PPYoloELoss/loss_iou=0.324, gpu_mem=4.27]Train epoch 0:  12%|█▏        | 3/26 [01:38<11:51, 30.92s/it, PPYoloELoss/loss=3.88, PPYoloELoss/loss_cls=2.18, PPYoloELoss/loss_dfl=1.77, PPYoloELoss/loss_iou=0.324, gpu_mem=4.27]Train epoch 0:  12%|█▏        | 3/26 [02:01<11:51, 30.92s/it, PPYoloELoss/loss=3.91, PPYoloELoss/loss_cls=2.19, PPYoloELoss/loss_dfl=1.83, PPYoloELoss/loss_iou=0.322, gpu_mem=4.88]Train epoch 0:  15%|█▌        | 4/26 [02:01<10:04, 27.47s/it, PPYoloELoss/loss=3.91, PPYoloELoss/loss_cls=2.19, PPYoloELoss/loss_dfl=1.83, PPYoloELoss/loss_iou=0.322, gpu_mem=4.88]Train epoch 0:  15%|█▌        | 4/26 [02:21<10:04, 27.47s/it, PPYoloELoss/loss=3.93, PPYoloELoss/loss_cls=2.26, PPYoloELoss/loss_dfl=1.79, PPYoloELoss/loss_iou=0.311, gpu_mem=5.79]Train epoch 0:  19%|█▉        | 5/26 [02:21<08:42, 24.86s/it, PPYoloELoss/loss=3.93, PPYoloELoss/loss_cls=2.26, PPYoloELoss/loss_dfl=1.79, PPYoloELoss/loss_iou=0.311, gpu_mem=5.79]Train epoch 0:  19%|█▉        | 5/26 [02:42<08:42, 24.86s/it, PPYoloELoss/loss=3.91, PPYoloELoss/loss_cls=2.25, PPYoloELoss/loss_dfl=1.78, PPYoloELoss/loss_iou=0.309, gpu_mem=5.79]Train epoch 0:  23%|██▎       | 6/26 [02:42<07:53, 23.65s/it, PPYoloELoss/loss=3.91, PPYoloELoss/loss_cls=2.25, PPYoloELoss/loss_dfl=1.78, PPYoloELoss/loss_iou=0.309, gpu_mem=5.79]Train epoch 0:  23%|██▎       | 6/26 [03:04<07:53, 23.65s/it, PPYoloELoss/loss=3.93, PPYoloELoss/loss_cls=2.26, PPYoloELoss/loss_dfl=1.79, PPYoloELoss/loss_iou=0.312, gpu_mem=2.07]Train epoch 0:  27%|██▋       | 7/26 [03:04<07:18, 23.06s/it, PPYoloELoss/loss=3.93, PPYoloELoss/loss_cls=2.26, PPYoloELoss/loss_dfl=1.79, PPYoloELoss/loss_iou=0.312, gpu_mem=2.07]Train epoch 0:  27%|██▋       | 7/26 [03:09<08:34, 27.09s/it, PPYoloELoss/loss=3.93, PPYoloELoss/loss_cls=2.26, PPYoloELoss/loss_dfl=1.79, PPYoloELoss/loss_iou=0.312, gpu_mem=2.07]
